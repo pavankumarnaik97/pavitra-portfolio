@@ -9,7 +9,7 @@ type FormStatus = 'idle' | 'loading' | 'success'
 
 const CONTACT_LINKS = [
   { icon: Mail, label: 'pavitrap364@gmail.com', href: 'mailto:pavitrap364@gmail.com' },
-  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/pavan-naik-77b64a20b/', label: 'LinkedIn' },
+  { icon: LinkedinIcon, label: 'linkedin.com/in/pavitra-naik-b9b098205', href: 'https://www.linkedin.com/in/pavitra-naik-b9b098205/' },
   { icon: Phone, label: '+91 94826 88622', href: 'tel:+919482688622' },
   { icon: MapPin, label: 'Bengaluru, Karnataka', href: 'https://maps.google.com/?q=Bengaluru,Karnataka' },
 ]

@@ -4,7 +4,7 @@ import { LinkedinIcon } from './icons/BrandIcons'
 const SOCIALS = [
   { icon: Mail, href: 'mailto:pavitrap364@gmail.com', label: 'Email' },
   { icon: Phone, href: 'tel:+919482688622', label: 'Phone' },
-  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/pavan-naik-77b64a20b/', label: 'LinkedIn' },
+  { icon: LinkedinIcon, label: 'linkedin.com/in/pavitra-naik-b9b098205', href: 'https://www.linkedin.com/in/pavitra-naik-b9b098205/' },
 ]
 
 export default function Footer() {
