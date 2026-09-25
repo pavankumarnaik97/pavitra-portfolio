@@ -1,8 +1,10 @@
 import { Mail, Phone } from 'lucide-react'
+import { LinkedinIcon } from './icons/BrandIcons'
 
 const SOCIALS = [
   { icon: Mail, href: 'mailto:pavitrap364@gmail.com', label: 'Email' },
   { icon: Phone, href: 'tel:+919482688622', label: 'Phone' },
+  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/pavan-naik-77b64a20b/', label: 'LinkedIn' },
 ]
 
 export default function Footer() {

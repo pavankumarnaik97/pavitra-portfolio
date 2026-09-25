@@ -3,9 +3,11 @@ import { ArrowDown, Mail, Phone } from 'lucide-react'
 import { useRef, type MouseEvent } from 'react'
 import { fadeUp, staggerContainer } from '../animations/variants'
 import profilePhoto from '../assets/profile.jpg'
+import { LinkedinIcon } from './icons/BrandIcons'
 
 const SOCIALS = [
   { icon: Mail, href: 'mailto:pavitrap364@gmail.com', label: 'Email' },
+  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/pavan-naik-77b64a20b/', label: 'LinkedIn' },
   { icon: Phone, href: 'tel:+919482688622', label: 'Phone' },
 ]
 
@@ -78,7 +80,7 @@ export default function Hero() {
             variants={fadeUp}
             className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-accent-amber/80"
           >
-            Hi, I&apos;m Pavitra Ganapati Naik — Senior Analytical Executive
+            Hi, I&apos;m Pavitra Ganapati Naik — Analytical Executive
           </motion.p>
 
           <motion.h1

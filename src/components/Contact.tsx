@@ -3,11 +3,13 @@ import { Loader2, Mail, Send, CheckCircle2, Phone, MapPin } from 'lucide-react'
 import { useState, type FormEvent } from 'react'
 import { fadeUp, staggerContainer, viewportDefault } from '../animations/variants'
 import SectionKicker from './SectionKicker'
+import { LinkedinIcon } from './icons/BrandIcons'
 
 type FormStatus = 'idle' | 'loading' | 'success'
 
 const CONTACT_LINKS = [
   { icon: Mail, label: 'pavitrap364@gmail.com', href: 'mailto:pavitrap364@gmail.com' },
+  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/pavan-naik-77b64a20b/', label: 'LinkedIn' },
   { icon: Phone, label: '+91 94826 88622', href: 'tel:+919482688622' },
   { icon: MapPin, label: 'Bengaluru, Karnataka', href: 'https://maps.google.com/?q=Bengaluru,Karnataka' },
 ]
